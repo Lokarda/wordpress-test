@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: Moj Prvi Plugin
+ * Plugin Name: Doralis Supply Home
  * Description: Dodaje shortcodeove [pozdrav] i [doralis_pocetna] za profesionalnu Doralis Supply početnu stranicu.
  * Version: 1.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * License: GPL-2.0-or-later
- * Text Domain: moj-prvi-plugin
+ * Text Domain: doralis-supply-home
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @return string
  */
 function moj_prvi_plugin_pozdrav_shortcode() {
-	return esc_html__( 'Pozdrav iz mog prvog WordPress plugina!', 'moj-prvi-plugin' );
+	return esc_html__( 'Pozdrav iz mog prvog WordPress plugina!', 'doralis-supply-home' );
 }
 
 add_shortcode( 'pozdrav', 'moj_prvi_plugin_pozdrav_shortcode' );
